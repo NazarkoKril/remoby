@@ -1,0 +1,216 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Geologica", sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+.container {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 130px;
+}
+.container_pd {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+@media (max-width: 1250px) {
+	.container {
+		padding: 0 40px;
+	}
+}
+@media (max-width: 1020px) {
+	.container {
+		padding: 0 20px;
+	}
+}
+@media (min-width: 1441px) {
+	.container {
+		max-width: 1920px;
+	}
+}
+main {
+	padding-top: 120px;
+	overflow: hidden;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #fff;
+}
+
+img {
+	width: 100%;
+	display: block;
+	user-select: none;
+	pointer-events: none;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--color_light_blue);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--color_dark_blue);
+	border-radius: 6px;
+	transition: all 0.35s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color_black);
+}
+
+.btn {
+	padding: 12px 25px;
+	border-radius: 50px;
+	color: var(--color_white);
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	border: none;
+	transition: var(--trans);
+	cursor: pointer;
+
+	&.btn_light {
+		background-color: var(--color_blue);
+	}
+
+	&.btn_dark {
+		background-color: var(--color_dark_blue);
+	}
+}
+
+.input {
+	width: 271px;
+
+	input {
+		width: 100%;
+		background-color: var(--color_white);
+		padding: 15px 32px;
+		border-radius: 50px;
+		border: none;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		letter-spacing: 0%;
+		outline: none;
+
+		&::placeholder {
+			color: #A0A0A0;
+		}
+	}
+}
+
+.title {
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 48px;
+	letter-spacing: 0%;
+	color: var(--color_dark_blue);
+	text-align: center;
+}
+
+@media (max-width: 1020px) {
+	main {
+		padding-top: 73px;
+	}
+
+	.btn {
+		padding: 8px 14px;
+		font-size: 14px;
+
+		&.btn_light:active {
+			border: none;
+			color: var(--color_white);
+			background-color: var(--color_dark_blue);
+		}
+
+		&.btn_dark:active {
+			border: none;
+			color: var(--color_white);
+			background-color: var(--color_blue);
+		}
+	}
+
+	.input {
+		width: 251px;
+
+		input {
+			padding: 11px 24px;
+			font-size: 14px;
+			line-height: 18px;
+		}
+	}
+
+	.title {
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 35px;
+	}
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+	// тут писати ховери (вони будуть лише для десктопа)
+	.btn {
+		&.btn_light:hover {
+			background-color: var(--color_dark_blue);
+		}
+
+		&.btn_dark:hover {
+			background-color: var(--color_blue);
+		}
+
+		&:active {
+			border: 1px solid var(--color_dark_blue);
+			background-color: transparent !important;
+			color: var(--color_dark_blue);
+		}
+	}
+
+	.header-container .header-link:hover {
+		color: var(--color_blue);
+	}
+
+	.footer-container {
+		.footer-link:hover, .footer-social:hover {
+			color: var(--color_blue);
+		}
+	}
+
+	.contacts-section .contacts-list-item:hover {
+		background-color: var(--color_dark_blue);
+		color: var(--color_white);
+	}
+
+	.faq-section .faq-item-header:hover,
+	.universities-section .university-header:hover {
+		box-shadow: 0 0 0 2px var(--color_blue), 0px 6px 16px rgba(0, 0, 0, 0.25);
+	}
+
+	.universities-section .university-header:hover .university-btn {
+		img {
+			transform: rotate(90deg);
+		}
+	}
+
+	.universities-section .faculty-header:hover img {
+		transform: rotate(90deg);
+	}
+
+	.popup-container .close-btn:hover {
+		svg path {
+			fill: var(--color_blue);
+		}
+	}
+}
