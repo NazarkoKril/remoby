@@ -19,49 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-// Header Scroll Behavior
-const style = document.createElement("style");
-style.textContent = `
-  .header-container {
-    transition: transform 0.6s ease-in-out;
-  }
-  .header-container.hidden {
-    transform: translateY(-100%);
-  }
-`;
-document.head.appendChild(style);
-
-let lastScrollPosition = 0;
-let ticking = false;
-const headerContainer = document.querySelector(".header__container");
-const SCROLL_THRESHOLD = 20;
-const HEADER_HEIGHT = 50;
-
-if (headerContainer) {
-	window.addEventListener("scroll", () => {
-		const currentScrollPosition = window.pageYOffset;
-
-		if (!ticking) {
-			window.requestAnimationFrame(() => {
-				if (currentScrollPosition <= 20) {
-					headerContainer.classList.remove("hidden");
-				} else if (
-					Math.abs(currentScrollPosition - lastScrollPosition) >=
-					SCROLL_THRESHOLD
-				) {
-					if (currentScrollPosition > lastScrollPosition) {
-						headerContainer.classList.add("hidden");
-					} else {
-						headerContainer.classList.remove("hidden");
-					}
-					lastScrollPosition = currentScrollPosition;
-				}
-				ticking = false;
-			});
-			ticking = true;
-		}
-	});
-}
 
 document.addEventListener("DOMContentLoaded", () => {
 AOS.init({
