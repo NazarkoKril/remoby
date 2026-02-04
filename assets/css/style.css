@@ -519,7 +519,9 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 24px;
-  padding-bottom: 15px;
+}
+.campaign .swiper-pagination {
+  display: none !important;
 }
 
 .campaign_card {
@@ -682,8 +684,6 @@ footer {
   border: 1px solid var(--Fill-Stroke-Grey, #e2e8f0);
   background: var(--Fill-White, #fff);
   padding: 32px;
-  -webkit-transition: var(--trans) !important;
-  transition: var(--trans) !important;
 }
 .card_benefit .icon {
   border-radius: var(--Corners-12, 12px);
@@ -840,7 +840,7 @@ footer {
   font-size: var(--Typography-Size-72, 72px);
   font-style: normal;
   font-weight: 600;
-  line-height: 95%; /* 68.4px */
+  line-height: 100%; /* 68.4px */
   letter-spacing: -0.72px;
   max-width: 800px;
   margin-bottom: 32px;
@@ -1027,6 +1027,11 @@ footer {
 .scroll_section {
   padding: 120px 0;
 }
+.scroll_section .title_main {
+  max-width: 660px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /* layout */
 .inner {
@@ -1057,8 +1062,6 @@ footer {
   aspect-ratio: 1/1;
   border-radius: 20px;
   overflow: hidden;
-  -webkit-box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
 
 .media img {
@@ -1264,7 +1267,20 @@ footer {
     display: flex;
   }
   .campaign .swiper {
-    height: 332px;
+    height: 320px;
+  }
+  .campaign .swiper-pagination {
+    display: block !important;
+  }
+  .campaign .campaign_card {
+    height: 120px;
+  }
+  .campaign .swiper-wrapper {
+    row-gap: 16px;
+    height: 240px;
+  }
+  .campaign .swiper-slide {
+    padding-bottom: 0px;
   }
   .campaign_card p {
     margin-top: 22px;
@@ -1430,5 +1446,13 @@ footer {
   }
   .footer-socials {
     margin-top: 40px;
+  }
+}
+@media (max-width: 640px) {
+  .campaign .swiper-wrapper {
+    height: 350px;
+  }
+  .campaign .swiper {
+    height: 450px;
   }
 }

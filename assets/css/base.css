@@ -39,7 +39,7 @@
   }
 }
 main {
-  padding-top: 120px;
+  padding-top: 88px;
 }
 
 html {
@@ -140,13 +140,9 @@ img {
 }
 @media (hover: hover) and (pointer: fine) {
   html .btn:hover {
-    color: #E38F00;
-    -webkit-box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
-            box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
-  }
-  html .card_benefit:hover {
-    -webkit-box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
-            box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    color: #E2920B;
+    -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
+            box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
   }
   html .campaign_card:hover {
     border-color: #e38f00;
@@ -155,9 +151,9 @@ img {
             box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
   }
   html .btn2:hover {
-    background: #e38f00;
-    -webkit-box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
-            box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    background: #E2920B;
+    -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
+            box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
   }
   html .footer_icon:hover svg path {
     fill: #e38f00;
@@ -179,9 +175,9 @@ img {
     color: var(--Fill-Orange, #f59e0b);
   }
   html .btn1:hover {
-    background: #e38f00 !important;
+    background: #E2920B !important;
     /* Hover shadow */
-    -webkit-box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11) !important;
-            box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11) !important;
+    -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08) !important;
+            box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08) !important;
   }
 }

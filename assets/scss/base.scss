@@ -35,7 +35,7 @@
 	}
 }
 main {
-	padding-top: 120px;
+	padding-top: 88px;
 	
 }
 html {
@@ -140,17 +140,12 @@ img {
 	html {
 		.btn{
 			&:hover{
-color: #E38F00;
-box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0.00), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.10), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+color: #E2920B;
+box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
 
 			}
 		}
-		.card_benefit{
-			&:hover{
-
-box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0.00), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.10), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
-			}
-		}
+		
 		.campaign_card {
 			&:hover {
 				border-color: #e38f00;
@@ -165,13 +160,8 @@ box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0.00), 0 28px 11px 0 rgba(0, 0, 0, 0.02)
 		}
 		.btn2 {
 			&:hover {
-				background: #e38f00;
-				box-shadow:
-					0 44px 12px 0 rgba(0, 0, 0, 0),
-					0 28px 11px 0 rgba(0, 0, 0, 0.02),
-					0 16px 9px 0 rgba(0, 0, 0, 0.06),
-					0 7px 7px 0 rgba(0, 0, 0, 0.1),
-					0 2px 4px 0 rgba(0, 0, 0, 0.11);
+				background: #E2920B;
+				box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
 			}
 		}
 
@@ -208,15 +198,10 @@ box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0.00), 0 28px 11px 0 rgba(0, 0, 0, 0.02)
 
 		.btn1 {
 			&:hover {
-				background: #e38f00 !important;
+				background: #E2920B !important;
 
 				/* Hover shadow */
-				box-shadow:
-					0 44px 12px 0 rgba(0, 0, 0, 0),
-					0 28px 11px 0 rgba(0, 0, 0, 0.02),
-					0 16px 9px 0 rgba(0, 0, 0, 0.06),
-					0 7px 7px 0 rgba(0, 0, 0, 0.1),
-					0 2px 4px 0 rgba(0, 0, 0, 0.11) !important;
+				box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08) !important;
 			}
 		}
 	}
