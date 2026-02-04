@@ -1117,6 +1117,79 @@ footer {
   display: none;
 }
 
+.cook_popup {
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  -webkit-box-shadow: 0 24px 48px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 24px 48px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 17px;
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(20px);
+          transform: translateX(-50%) translateY(20px);
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
+  transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  transition: opacity 0.35s ease, transform 0.35s ease, -webkit-transform 0.35s ease;
+}
+.cook_popup p {
+  font-family: Manrope;
+  font-size: 16px;
+  line-height: 140%;
+  color: #111827;
+}
+.cook_popup .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+.cook_popup .btns button {
+  cursor: pointer;
+  white-space: nowrap;
+}
+.cook_popup.is-visible {
+  opacity: 1;
+  -webkit-transform: translateX(-50%) translateY(0);
+          transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+.cook_popup.is-hidden {
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(20px);
+          transform: translateX(-50%) translateY(20px);
+  pointer-events: none;
+}
+
+@media (max-width: 800px) {
+  .cook_popup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    bottom: 0px;
+  }
+  .cook_popup p {
+    text-align: center !important;
+  }
+}
 @media (max-width: 900px) {
   .media-wrap {
     display: none;
