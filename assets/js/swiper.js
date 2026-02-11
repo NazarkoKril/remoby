@@ -73,3 +73,24 @@ const swiper1 = new Swiper(".swiper_review", {
 	},
 });
 
+const swiper2 = new Swiper(".swiper_scroll", {
+
+	breakpoints: {
+        320: {
+			slidesPerView: 1,
+			spaceBetween: 16,
+		},
+		
+	},
+
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+});
+
