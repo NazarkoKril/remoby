@@ -139,6 +139,19 @@ img {
   }
 }
 @media (hover: hover) and (pointer: fine) {
+  html .btn_swiper .number button:hover {
+    color: var(--Type-Orange-Contrast, #E2920B);
+  }
+  html .btn_swiper .arrow_btn:hover {
+    background: var(--Fill-Dark, #111827);
+    border: 1px solid var(--Fill-Stroke-Grey, #111827);
+  }
+  html .btn_swiper .arrow_btn:hover svg path {
+    stroke: #ffffff;
+  }
+  html .link_box a:hover {
+    color: #E2920B;
+  }
   html .btn:hover {
     color: #E2920B;
     -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);

@@ -138,6 +138,27 @@ img {
 
 @media (hover: hover) and (pointer: fine) {
 	html {
+		.btn_swiper .number button{
+			&:hover{
+				color: var(--Type-Orange-Contrast, #E2920B);
+
+			}
+		}
+		.btn_swiper .arrow_btn{
+			&:hover{
+				
+background: var(--Fill-Dark, #111827);
+border: 1px solid var(--Fill-Stroke-Grey, #111827);
+svg path{
+	stroke: #ffffff;
+}
+			}
+		}
+		.link_box a{
+			&:hover{
+color: #E2920B;
+			}
+		}
 		.btn{
 			&:hover{
 color: #E2920B;
