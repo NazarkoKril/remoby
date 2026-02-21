@@ -138,6 +138,13 @@ img {
 
 @media (hover: hover) and (pointer: fine) {
 	html {
+		.toc-list a {
+			&:hover{
+			color: var(--Type-Orange-Contrast, #E2920B);
+
+			}
+
+		}
 		.btn_swiper .number button{
 			&:hover{
 				color: var(--Type-Orange-Contrast, #E2920B);
