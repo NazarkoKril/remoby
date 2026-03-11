@@ -3011,7 +3011,19 @@ background: var(--Fill-Dark, #111827);
 		display: none;
 	}
 }
+.sect_edit{
+	.right span{
+		margin-bottom: 16px;
+	}
+}
+
 @media (max-width: 900px) {
+	.ads .block h3{
+text-align: center;	
+}
+	.sect_edit .boxes h3{
+		font-size: 20px;
+	}
 
 	.buttons_hub {
 		#dropdownLabel {
@@ -3128,6 +3140,7 @@ line-height: 150%; /* 24px */
 	}
 	.sect_edit .boxes {
 		padding: 16px;
+		gap: 16px;
 	}
 	.sect_edit .right li:first-child {
 		border-top: 1px solid #e2e8f0;

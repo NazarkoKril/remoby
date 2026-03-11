@@ -3370,7 +3370,17 @@ select::-ms-expand {
   display: none;
 }
 
+.sect_edit .right span {
+  margin-bottom: 16px;
+}
+
 @media (max-width: 900px) {
+  .ads .block h3 {
+    text-align: center;
+  }
+  .sect_edit .boxes h3 {
+    font-size: 20px;
+  }
   .buttons_hub #dropdownLabel {
     color: var(--Type-Primary, #111827);
     text-align: center;
@@ -3487,6 +3497,7 @@ select::-ms-expand {
   }
   .sect_edit .boxes {
     padding: 16px;
+    gap: 16px;
   }
   .sect_edit .right li:first-child {
     border-top: 1px solid #e2e8f0;
