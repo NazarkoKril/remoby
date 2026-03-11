@@ -13,7 +13,7 @@ const headerComponent = `
                             <li><a class="header-link" href="/careers.html">Careers</a></li>
                             <li><a class="header-link" href="/about.html">About</a></li>
                             <li><a class="header-link" href="/contact.html">Contact Us</a></li>
-                            
+                             <li><a class="header-link" href="/blog.html">Blog</a></li>
                         </ul>
                     </nav>
                 </div>

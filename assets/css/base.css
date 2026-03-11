@@ -139,11 +139,14 @@ img {
   }
 }
 @media (hover: hover) and (pointer: fine) {
-  html .toc-list a:hover {
+  html .card_blog:hover h4 {
     color: var(--Type-Orange-Contrast, #E2920B);
   }
+  html .toc-list a:hover {
+    color: var(--Type-Orange-Contrast, #e2920b);
+  }
   html .btn_swiper .number button:hover {
-    color: var(--Type-Orange-Contrast, #E2920B);
+    color: var(--Type-Orange-Contrast, #e2920b);
   }
   html .btn_swiper .arrow_btn:hover {
     background: var(--Fill-Dark, #111827);
@@ -153,12 +156,15 @@ img {
     stroke: #ffffff;
   }
   html .link_box a:hover {
-    color: #E2920B;
+    color: #e2920b;
   }
   html .btn:hover {
-    color: #E2920B;
+    color: #e2920b;
     -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
             box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
+  }
+  html .btn:hover span {
+    color: #e2920b;
   }
   html .campaign_card:hover {
     border-color: #e38f00;
@@ -167,7 +173,7 @@ img {
             box-shadow: 0 44px 12px 0 rgba(0, 0, 0, 0), 0 28px 11px 0 rgba(0, 0, 0, 0.02), 0 16px 9px 0 rgba(0, 0, 0, 0.06), 0 7px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.11);
   }
   html .btn2:hover {
-    background: #E2920B;
+    background: #e2920b;
     -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
             box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
   }
@@ -191,7 +197,7 @@ img {
     color: var(--Fill-Orange, #f59e0b);
   }
   html .btn1:hover {
-    background: #E2920B !important;
+    background: #e2920b !important;
     /* Hover shadow */
     -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08) !important;
             box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08) !important;

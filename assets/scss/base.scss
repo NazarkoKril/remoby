@@ -36,7 +36,6 @@
 }
 main {
 	padding-top: 88px;
-	
 }
 html {
 	scroll-behavior: smooth;
@@ -69,8 +68,6 @@ img {
 ::-webkit-scrollbar-thumb:hover {
 	background: var(--color_black);
 }
-
-
 
 .title {
 	font-weight: 600;
@@ -129,8 +126,8 @@ img {
 		line-height: 35px;
 	}
 }
-@media (max-width:800px) {
-	.title_main{
+@media (max-width: 800px) {
+	.title_main {
 		font-size: 32px;
 		margin-bottom: 32px;
 	}
@@ -138,42 +135,46 @@ img {
 
 @media (hover: hover) and (pointer: fine) {
 	html {
-		.toc-list a {
-			&:hover{
-			color: var(--Type-Orange-Contrast, #E2920B);
-
-			}
-
-		}
-		.btn_swiper .number button{
-			&:hover{
+		.card_blog:hover{
+			h4{
 				color: var(--Type-Orange-Contrast, #E2920B);
 
 			}
 		}
-		.btn_swiper .arrow_btn{
-			&:hover{
-				
-background: var(--Fill-Dark, #111827);
-border: 1px solid var(--Fill-Stroke-Grey, #111827);
-svg path{
-	stroke: #ffffff;
-}
+		.toc-list a {
+			&:hover {
+				color: var(--Type-Orange-Contrast, #e2920b);
 			}
 		}
-		.link_box a{
-			&:hover{
-color: #E2920B;
+		.btn_swiper .number button {
+			&:hover {
+				color: var(--Type-Orange-Contrast, #e2920b);
 			}
 		}
-		.btn{
-			&:hover{
-color: #E2920B;
-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
+		.btn_swiper .arrow_btn {
+			&:hover {
+				background: var(--Fill-Dark, #111827);
+				border: 1px solid var(--Fill-Stroke-Grey, #111827);
+				svg path {
+					stroke: #ffffff;
+				}
+			}
+		}
+		.link_box a {
+			&:hover {
+				color: #e2920b;
+			}
+		}
+		.btn {
+			&:hover {
+				color: #e2920b;
+				box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
+				span {
+					color: #e2920b;
+				}
+			}
+		}
 
-			}
-		}
-		
 		.campaign_card {
 			&:hover {
 				border-color: #e38f00;
@@ -188,7 +189,7 @@ box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
 		}
 		.btn2 {
 			&:hover {
-				background: #E2920B;
+				background: #e2920b;
 				box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
 			}
 		}
@@ -226,7 +227,7 @@ box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
 
 		.btn1 {
 			&:hover {
-				background: #E2920B !important;
+				background: #e2920b !important;
 
 				/* Hover shadow */
 				box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08) !important;
